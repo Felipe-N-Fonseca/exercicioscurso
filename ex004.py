@@ -1,0 +1,11 @@
+# crie um programa que mostre em quais classes se integra o digito do user
+var1 = input('digite qualquer coisa')
+print('seu digito é' , type (var1))
+print('ele é alfanumérico?' , var1.isalnum())
+print('ele é um número?' , var1.isnumeric())
+print('ele é alfabético?' , var1.isalpha())
+print('ele só tem maiúsculas?' , var1.isupper())
+print('ele é minúscula?' , var1.islower())
+print('ele é espaço?' , var1.isspace())
+print('ele é captalizada?' , var1.istitle())
+print('obrigado por usar o app do obvio')
